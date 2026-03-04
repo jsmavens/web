@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JSMavens
+
+Welcome to the official repository for the [JSMavens Meetup Group](https://www.meetup.com/js-mavens/). This project is a website for our community, built with Next.js and hosted on Vercel.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project locally, you will need to use [bun](https://bun.sh/).
 
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+bun install
+```
+
+2. Run the development server:
+```bash
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Here's a rundown of the project structure within the `src/` directory:
 
-## Learn More
+```text
+src/
+├── app/               # Next.js App Router structure (pages, layouts, globals)
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/        # Reusable React components
+│   ├── footer.tsx
+│   ├── hero.tsx
+│   ├── navbar.tsx
+│   ├── past-events.tsx
+│   ├── photo-gallery.tsx
+│   ├── sponsors.tsx
+│   ├── ui/            # UI components (e.g., shadcn/ui)
+│   └── upcoming-events.tsx
+├── data/              # Static data and content files
+│   ├── events.ts
+│   ├── gallery.ts
+│   └── sponsors.ts
+├── hooks/             # Custom React hooks
+│   └── use-scroll-animation.ts
+└── lib/               # Utility functions and shared logic
+    └── utils.ts
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is configured to be deployed and hosted on [Vercel](https://vercel.com/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributors
 
-## Deploy on Vercel
+Thank you to all our contributors!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Placeholder: Add contributors here]
