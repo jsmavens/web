@@ -49,17 +49,17 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Twitter / X
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   Discord
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   GitHub
                 </a>
               </li>

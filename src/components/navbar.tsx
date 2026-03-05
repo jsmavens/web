@@ -65,8 +65,8 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-            <Button size="sm" className="w-fit">
-              Join Community
+            <Button size="sm" className="w-fit" asChild>
+              <a href="https://www.meetup.com/js-mavens/" target="_blank" rel="noopener noreferrer">Join Community</a>
             </Button>
           </div>
         </div>
