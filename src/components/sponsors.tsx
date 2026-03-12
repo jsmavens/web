@@ -34,9 +34,12 @@ export function Sponsors() {
                 </h3>
                 <div className="flex flex-wrap items-center justify-center gap-6">
                   {tierSponsors.map((sponsor) => (
+                    // 🛡️ Security: Prevent tabnabbing on external sponsor links
                     <a
                       key={sponsor.id}
                       href={sponsor.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className={`${config.size} flex items-center justify-center rounded-lg border border-border bg-card transition-colors hover:border-js-yellow/30`}
                     >
                       <span
