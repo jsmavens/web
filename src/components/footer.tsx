@@ -18,22 +18,34 @@ export function Footer() {
             <h4 className="font-semibold">Quick Links</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#events" className="hover:text-foreground transition-colors">
+                <a
+                  href="#events"
+                  className="hover:text-foreground transition-colors"
+                >
                   Upcoming Events
                 </a>
               </li>
               <li>
-                <a href="#past-events" className="hover:text-foreground transition-colors">
+                <a
+                  href="#past-events"
+                  className="hover:text-foreground transition-colors"
+                >
                   Past Events
                 </a>
               </li>
               <li>
-                <a href="#gallery" className="hover:text-foreground transition-colors">
+                <a
+                  href="#gallery"
+                  className="hover:text-foreground transition-colors"
+                >
                   Gallery
                 </a>
               </li>
               <li>
-                <a href="#sponsors" className="hover:text-foreground transition-colors">
+                <a
+                  href="#sponsors"
+                  className="hover:text-foreground transition-colors"
+                >
                   Sponsors
                 </a>
               </li>
@@ -44,7 +56,12 @@ export function Footer() {
             <h4 className="font-semibold">Connect</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="https://www.meetup.com/js-mavens/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                <a
+                  href="https://www.meetup.com/js-mavens/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground transition-colors"
+                >
                   Meetup
                 </a>
               </li>

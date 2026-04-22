@@ -7,11 +7,13 @@ Welcome to the official repository for the [JSMavens Meetup Group](https://www.m
 To get started with the project locally, you will need to use [bun](https://bun.sh/).
 
 1. Install dependencies:
+
 ```bash
 bun install
 ```
 
 2. Run the development server:
+
 ```bash
 bun dev
 ```
