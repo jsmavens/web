@@ -63,7 +63,8 @@ export const pastEvents: Event[] = [
     venue: "Cookies Space, Nagercoil",
     speaker: "Community Speakers",
     speakerRole: "JS Mavens",
-    description: "Monthly meetup covering the latest in the JavaScript ecosystem.",
+    description:
+      "Monthly meetup covering the latest in the JavaScript ecosystem.",
     tags: ["JavaScript", "Community"],
     attendees: 28,
   },
@@ -111,7 +112,8 @@ export const pastEvents: Event[] = [
     venue: "Cookies Space, Nagercoil",
     speaker: "Community Speakers",
     speakerRole: "JS Mavens",
-    description: "Test-driven development with Vitest and modern testing strategies.",
+    description:
+      "Test-driven development with Vitest and modern testing strategies.",
     tags: ["Testing", "TDD"],
     attendees: 22,
   },
@@ -123,7 +125,8 @@ export const pastEvents: Event[] = [
     venue: "Cookies Space, Nagercoil",
     speaker: "Community Speakers",
     speakerRole: "JS Mavens",
-    description: "Exploring Angular signals, standalone components, and the latest updates.",
+    description:
+      "Exploring Angular signals, standalone components, and the latest updates.",
     tags: ["Angular", "Web Dev"],
     attendees: 18,
   },
