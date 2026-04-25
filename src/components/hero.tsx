@@ -24,7 +24,7 @@ export function Hero() {
             y: 30,
             duration: 0.8,
           },
-          "-=0.5"
+          "-=0.5",
         )
         .from(
           ".hero-cta",
@@ -34,7 +34,7 @@ export function Hero() {
             duration: 0.6,
             stagger: 0.15,
           },
-          "-=0.4"
+          "-=0.4",
         )
         .from(
           ".hero-stats > div",
@@ -44,10 +44,10 @@ export function Hero() {
             duration: 0.5,
             stagger: 0.1,
           },
-          "-=0.3"
+          "-=0.3",
         );
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   return (
@@ -73,9 +73,9 @@ export function Hero() {
         </h1>
 
         <p className="hero-tagline mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl">
-          A community of passionate developers in Nagercoil, Kanyakumari.
-          Learn, share knowledge, and network with fellow JavaScript, React
-          &amp; Node.js enthusiasts — all experience levels welcome.
+          A community of passionate developers in Nagercoil, Kanyakumari. Learn,
+          share knowledge, and network with fellow JavaScript, React &amp;
+          Node.js enthusiasts — all experience levels welcome.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">

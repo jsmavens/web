@@ -67,7 +67,13 @@ export function UpcomingEvents() {
               </CardContent>
               <CardFooter>
                 <Button size="sm" className="w-full" asChild>
-                  <a href={event.rsvpLink} target="_blank" rel="noopener noreferrer">RSVP Now</a>
+                  <a
+                    href={event.rsvpLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    RSVP Now
+                  </a>
                 </Button>
               </CardFooter>
             </Card>

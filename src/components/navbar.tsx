@@ -31,7 +31,13 @@ export function Navbar() {
             </a>
           ))}
           <Button size="sm" asChild>
-            <a href="https://www.meetup.com/js-mavens/" target="_blank" rel="noopener noreferrer">Join Community</a>
+            <a
+              href="https://www.meetup.com/js-mavens/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join Community
+            </a>
           </Button>
         </div>
 
